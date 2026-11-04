@@ -50,7 +50,7 @@ rsync -a \
   --exclude='*.so.*' \
   --exclude='.venv/' \
   --exclude='venv/' \
-  --exclude='env/' \
+  --exclude='/env/' \
   --exclude='.env' \
   --exclude='.env.*' \
   ./ ../quadruped-test-portfolio/
