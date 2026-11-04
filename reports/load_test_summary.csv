@@ -1,0 +1,5 @@
+num_envs,iterations,total_timesteps,training_time_s,last_iter_fps,device_memory_peak_mib,gpu_sample_count,last_mean_reward,last_mean_episode_length_steps,last_tracking_reward,exit_code,evidence_status,run_id
+64,50,153600,25.02,6206,,,0.03,220.20,0.0154,,artifacts_and_steps_verified,smoke64_20261104_171533
+256,200,2457600,125.93,20522,4274,133,0.07,260.29,0.0571,,steps_and_gpu_samples_verified,
+512,200,4915200,172.20,27770,4446,180,0.42,307.93,0.1298,,steps_and_gpu_samples_verified,
+1024,200,9830400,259.78,33136,4892,268,0.69,552.61,0.2088,0,short_load_test_passed,pressure1024_20261104_174012

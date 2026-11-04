@@ -1,0 +1,2 @@
+experiment,run_name,num_envs,iterations,total_timesteps,training_time_s,train_exit_code,last_mean_reward,last_mean_episode_length_steps,last_tracking_lin_vel_reward,last_iteration_fps,model_5000_exists,model_6000_exists,visual_check
+portfolio_front,Nov04_18-09-44_front1024_20261104_180939,1024,6000,294912000,6448.08,0,29.81,1144.98,1.6774,48985,true,true,user_reported_continuous_forward_walking

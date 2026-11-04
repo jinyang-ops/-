@@ -1,0 +1,51 @@
+# Training logs: matches logs/ and log/ at any depth.
+logs/
+log/
+runs/
+wandb/
+events.out.tfevents.*
+
+# Model weights and exported policies, at any depth.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Build products and compiled SDK libraries.
+build/
+dist/
+*.egg-info/
+*.o
+*.a
+*.so
+*.so.*
+
+# Install the SDK locally; keep required modifications as reviewed patches.
+/isaacgym/
+
+# Local configuration and credentials.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary outputs. Keep docs/ and reports/ versioned.
+*.tmp
+*.bak
